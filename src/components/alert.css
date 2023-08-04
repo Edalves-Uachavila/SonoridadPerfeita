@@ -1,0 +1,65 @@
+
+.voice-limit{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    padding:30px 50px;
+    padding-bottom: 20px;
+    border: solid 2px mediumslateblue;
+}
+
+.voice-limit> .feramentass{
+    list-style: none;
+}
+
+.voice-limit> .mensage{
+    text-align: justify;
+}
+
+.voice-limit> .mensage> h2{
+    text-align: center;
+}
+
+.voice-limit> .audio, .discount, .cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.voice-limit> .audio, .discount, .cta> .btn> *{
+    width: 250px;
+    font-size: large;
+}
+
+.download-limit{
+    padding:30px 50px;
+    padding-bottom: 20px;
+}
+
+
+
+.download-limit> main> span{
+    text-align: justify;
+}
+
+.download-limit> main> h3, .download-limit> main> .cta> span{
+    text-align: center;
+}
+
+.download-limit, .download-limit> main{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+}
+.download-limit>  main> span{margin-bottom:10px ;}
+
+.download-limit>  main> .cta{
+    display: flex;
+    flex-direction: column;
+    font-size: x-small;
+}
+
+
+

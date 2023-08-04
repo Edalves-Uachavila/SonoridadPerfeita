@@ -1,0 +1,30 @@
+
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+}
+
+.faq> .questinos{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 60vw;
+}
+
+div.Dropdown-placeholder, .Dropdown-option{
+    text-align: justify;
+    border: none;
+}
+
+@media only screen and (max-width: 767px){
+    .faq{
+        margin: 0px;
+    }
+
+    .faq> .questinos{
+        width: 100vw;
+    }
+}

@@ -1,0 +1,82 @@
+a{text-decoration: none;}
+
+
+.img> img{
+    height: 150px;
+    width: 150px;
+}
+
+.site-link{
+    text-align: center;
+}
+
+
+
+.select{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.play-avatar:hover, .download:hover{
+    background-color: whitesmoke;
+    border: solid 1px #0cb3a8;
+    border-radius: 40px;
+
+}
+
+#contar_click :hover{
+    background-color: blueviolet;
+}
+
+/*Para voz24*/
+.iten-servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 20px;
+}
+.iten-servicos> p{
+    text-align: justify;
+    word-spacing: 0px;
+}
+
+.iten-servicos> .icon{
+    text-align: center;
+    width: 150px;
+    border-radius: 2000px;
+    background-color: #0cb3a8;
+}
+
+.voz{
+    height: 10px;
+}
+
+/*para precos*/
+.preco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+    background-color: rgb(169, 209, 209);
+    width: 350px;
+    height: 70%;
+    margin: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.preco> div> li{
+    margin: 10px;
+}
+
+@media only screen and (max-width: 767px){
+    .iten-servicos{width: auto;}
+    .iten-servicos> p{text-align: center;}
+
+    .preco{
+        height: 100%;
+    }
+}

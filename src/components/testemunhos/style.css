@@ -1,0 +1,37 @@
+
+
+.custumer{
+    display: flex;
+    flex-direction: column;
+    min-width: 80vw;
+    height: 280px;
+
+}
+
+.custumer> div> .profile{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.custumer> div> .profile> .name{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.custumer> div> .profile> .name> p{
+    text-align: none;
+    font-size: 16pt;
+}
+
+.custumer> div> p{
+    font-size: 16pt;
+    text-align: justify;
+}
+
+.custumer> div> .profile> .logo> *{
+    width: 80px;
+    height: 80px;
+}

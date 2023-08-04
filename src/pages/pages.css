@@ -1,0 +1,267 @@
+.ladingpage-container{
+    margin: 0px;
+}
+
+
+main> .headline{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin-bottom: 150px;
+    background-image: url(../img/header_bg.gif);
+    background-size: cover;
+}
+
+
+.porque{
+    text-align: center;
+    height: 100vh;
+    padding-top: 20px;
+    margin-top: 0px;
+    background-color: rgb(218, 214, 214);
+}
+
+.porque> .vantagens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 60px;
+}
+
+.porque> .vantagens> div{
+    width: 350px;
+    margin: 20px;
+}
+
+
+.porque> .vantagens> .item> .icon{
+    background-color: #0cb3a8;
+    border-radius: 12px;
+}
+
+.porque> .vantagens> .item> .text> p{
+    text-align: center;
+    word-spacing: 1px;
+}
+
+
+.servicos{
+    height: 100vh;
+}
+
+.servicos> .items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.voz{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+.vozes-box{
+    background-color: rgb(218, 214, 214);
+    height: 100vh;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.vozes-box> .items{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.vozes-box> .items> div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    background-color: whitesmoke;    
+}
+
+.vozes-box> .items> div> div{
+    overflow: auto;
+    margin: 10px;
+}
+
+
+.precos> .lista-de-preco> *{
+    margin-top: 100px;
+    height: 450px;
+}
+
+.precos> .lista-de-preco{
+    background-image: url(../img/price_bg.webp);
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
+
+.precos> .lista-de-preco> li{
+    text-align: center;
+}
+
+
+
+/*pagina de pedidos*/
+.pedido-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/price_bg.webp);
+    background-size: cover;
+    height: 100vh;
+}
+
+.pedido-box> div> .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.pedido-box> div{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    height: 95vh;
+    background-color: beige;
+}
+
+.pedido-box> div> .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.pedido-box> div> .main> button{
+    margin: 6px;
+}
+
+.pedido-box> div> .main> textarea{
+    margin: 20px;
+    padding: 20px;
+    font-size: 16px;
+
+    min-width: 280px;
+    min-height: 230px;
+    text-align: justify;
+}
+
+.final-cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0px auto;
+    text-align: center;
+    max-width: 600px;
+    padding:20px 60px;
+    margin-bottom: 90px;
+}
+
+
+@media only screen and (max-width: 767px){
+    main> *{
+        margin: 0px;
+    }
+
+    main> .headline{
+        height: 105vh;
+        margin: 0px;
+        background-image: url(../img/header_bg_android.gif);
+    }
+
+    .porque{
+        height: auto;
+        background-color: rgb(218, 214, 214);
+        margin-top: 0px;
+        margin: 0px;
+    }
+
+    .porque> .vantagens{padding: 0px;}
+
+    .porque> .vantagens> div{
+        width: auto;
+    }
+
+    .porque> .vantagens> .item> .icon{
+        width: 30vw;
+        margin: 0px auto;
+        border-radius: 12px;
+
+    }
+
+    .servicos{
+        height: auto;
+    }
+
+    .vozes-box{
+        height: auto;
+    }
+
+    .vozes-box> h3{
+        visibility: hidden;
+        max-height: 0px;
+    }
+
+    .vozes-box> .items> div{
+        height: 400px;
+        min-width: 250px;
+    }
+
+    .precos> .lista-de-preco{
+        height: auto;
+    }
+
+    /*Pedido*/
+
+    
+
+    .pedido-box{
+        background-image: none;
+        background-color: beige;
+
+    }
+
+    .pedido-box> div{
+        height: 100vh;
+        max-width: 450px;
+    }
+
+    .pedido-box> div> .main{
+        padding: 0px;
+    }
+
+}
+
