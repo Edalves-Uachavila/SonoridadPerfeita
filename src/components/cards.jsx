@@ -25,10 +25,10 @@ export const Preco = (props)=>{
                 <h2>{props.titulo}</h2>
                 <p>{props.subtitulo}</p>
                 <hr/>
-                <label>até {props.segundos} segundos</label>
+                <label>hasta {props.segundos} segundos</label>
             </div>
             <div className="man">
-                    <li style={{marginTop:"10px"}}>Preço unitário a partir de:</li>
+                    <li style={{marginTop:"10px"}}>-</li>
                     <li>{props.preco1}</li>
                     <li>{props.preco2}</li>
                     <li>{props.preco3}</li>

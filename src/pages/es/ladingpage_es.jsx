@@ -13,7 +13,7 @@ import { Locutores } from "./locutor"
 
 export const Ladingpage_es = ()=>{
 
-    const whatsapp_link =  import.meta.env.VITE_WHATSAPP_LINK
+    const whatsapp_link =  "https://wa.me/message/KZU5DOQPWOQPP1"
 
     const go_link = ()=>{
         window.location.href = whatsapp_link;
@@ -105,19 +105,19 @@ export const Ladingpage_es = ()=>{
                     </div>
                 </div>
                 <div className="precos" id = "precios">
-                    <h1>Precios</h1>
+                    <h1>Tarifas</h1>
                     <h3>Valoramos su inversión y ofrecemos tarifas que se ajustan a las necesidades de su empresa.</h3>
                     <div className="lista-de-preco">
                         <Preco
                             to = {whatsapp_link}
                             segundos = "40"
                             titulo    = "Locuciones simples"
-                            preco1 = "1 Locución   – 15,00 €"
-                            preco2 = "10 Locuciones – 80,00 €"
-                            preco3 = "20 Locuciones – 140,00 €"
-                            preco4 = "30 Locuciones – 165,00 €"
-                            preco5 = "40 Locuciones – 180,00 €"
-                            preco6 = "50 Locuciones – 200,00 €"
+                            preco1 = "1 Locución   – 15€"
+                            preco2 = "10 Locuciones – 80€"
+                            preco3 = "20 Locuciones – 140€"
+                            preco4 = "30 Locuciones – 165€"
+                            preco5 = "40 Locuciones – 180€"
+                            preco6 = "50 Locuciones – 200€"
 
                         />
 
@@ -125,12 +125,12 @@ export const Ladingpage_es = ()=>{
                             to = {whatsapp_link}
                             segundos = "40"
                             titulo    = "Spots"
-                            preco1 = "1  Spot  – 40,00 €"
-                            preco2 = "10 Spots – 250,00 €"
-                            preco3 = "20 Spots – 430,00 €"
-                            preco4 = "30 Spots – 600,00 €"
-                            preco5 = "40 Spots – 750,00 €"
-                            preco6 = "50 Spots – 850,00 €"
+                            preco1 = "1  Spot  – 40€"
+                            preco2 = "10 Spots – 260€"
+                            preco3 = "20 Spots – 440€"
+                            preco4 = "30 Spots – 610€"
+                            preco5 = "40 Spots – 760€"
+                            preco6 = "50 Spots – 860€"
 
                         />
                         
@@ -139,10 +139,10 @@ export const Ladingpage_es = ()=>{
                             segundos = "8"
                             titulo    = "Espera Telefónica"
                             preco1 = "Tipo 1"
-                            preco2 = "Solo voz - 40,00 €"
+                            preco2 = "Solo voz - 40€"
                             preco3 = "---------------------"
                             preco4 = "Tipo 2"
-                            preco5 = "Con música de fondo - 80,00 €"
+                            preco5 = "Con música de fondo - 80€"
                             preco6 = "---------------------"
 
                         />
@@ -153,7 +153,7 @@ export const Ladingpage_es = ()=>{
                     <Faq_es/>
                 </div>
                 <div className="final-cta">
-                    <h2>🚀¡Tu Éxito Comienza Aquí!🚀</h2>
+                    <h2 style={{display:"flex", justifyContent:"center"}}><div className="icon1">🚀</div> ¡Tu Éxito Comienza Aquí! <div className="icon2">🚀</div></h2>
                     <p>¡No pierdas tiempo! Solicita ahora mismo nuestras locuciones profesionales y encanta a tu público con voces de alta calidad.</p>
                     <BTN_CLICK onClick = {go_link} text = "Solicita ahora"/>
                 </div>

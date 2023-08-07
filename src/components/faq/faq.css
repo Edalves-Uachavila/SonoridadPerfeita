@@ -1,5 +1,4 @@
 
-
 .faq{
     display: flex;
     flex-direction: column;
@@ -16,6 +15,9 @@
 
 div.Dropdown-placeholder, .Dropdown-option{
     text-align: justify;
+    word-spacing: -0.08em;
+    hyphens: auto;
+    -webkit-hyphens: auto;
     border: none;
 }
 

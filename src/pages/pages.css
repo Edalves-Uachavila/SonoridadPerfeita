@@ -42,8 +42,10 @@ main> .headline{
 }
 
 .porque> .vantagens> .item> .text> p{
-    text-align: center;
-    word-spacing: 1px;
+    text-align: justify;
+    word-spacing: -0.08em;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 
@@ -190,6 +192,13 @@ main> .headline{
     margin-bottom: 90px;
 }
 
+.final-cta> p{
+    text-align: justify;
+    word-spacing: -0.08em;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+}
+
 
 @media only screen and (max-width: 767px){
     main> *{
@@ -215,8 +224,9 @@ main> .headline{
         width: auto;
     }
 
+
     .porque> .vantagens> .item> .icon{
-        width: 30vw;
+        width: 45vw;
         margin: 0px auto;
         border-radius: 12px;
 
@@ -261,6 +271,15 @@ main> .headline{
 
     .pedido-box> div> .main{
         padding: 0px;
+    }
+
+    .final-cta> h2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .final-cta> h2> .icon2{
+        display: none;
     }
 
 }

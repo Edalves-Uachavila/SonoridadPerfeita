@@ -39,7 +39,9 @@ a{text-decoration: none;}
 }
 .iten-servicos> p{
     text-align: justify;
-    word-spacing: 0px;
+    word-spacing: -0.08em;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 .iten-servicos> .icon{
@@ -74,9 +76,9 @@ a{text-decoration: none;}
 
 @media only screen and (max-width: 767px){
     .iten-servicos{width: auto;}
-    .iten-servicos> p{text-align: center;}
 
     .preco{
         height: 100%;
     }
+
 }
