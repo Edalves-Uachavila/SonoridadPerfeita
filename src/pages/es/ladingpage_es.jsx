@@ -27,7 +27,7 @@ export const Ladingpage_es = ()=>{
                     
                 </div>
                 <div className="porque">
-                    <h2>¿Por qué debería elegirnos a nosotros?</h2>
+                    <h2>¿Por qué debería elegirnos a nosotros?</h2> 
                     <h4>¡Descubre el Poder de Nuestras Locuciones!</h4>
                     <div className="vantagens">
                         <div className="item">
