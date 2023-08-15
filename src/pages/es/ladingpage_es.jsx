@@ -155,9 +155,9 @@ export const Ladingpage_es = ()=>{
                 <div className="final-cta">
                     <h2 style={{display:"flex", justifyContent:"center"}}><div className="icon1">🚀</div> ¡Tu Éxito Comienza Aquí! <div className="icon2">🚀</div></h2>
                     <p>¡No pierdas tiempo! Solicita ahora mismo nuestras locuciones profesionales y encanta a tu público con voces de alta calidad.</p>
-                    <ul className="btn-box">
+                    <div className="btn-box">
                         <BTN_CLICK onClick = {go_link} text = "Solicita ahora"/>
-                    </ul>
+                    </div>
                 </div>
                 <div className="contactos">
                     .

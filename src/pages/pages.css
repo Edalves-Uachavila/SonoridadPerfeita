@@ -190,6 +190,7 @@ main> .headline{
 }
 
 .final-cta> .btn-box{
+    display: flex;
     margin: 0px auto;
 }
 
