@@ -27,8 +27,8 @@ export const Ladingpage_es = ()=>{
                     
                 </div>
                 <div className="porque">
-                    <h2>¡Descubre el Poder de Nuestras Locuciones!</h2>
-                    <h1>¿Por qué debería elegirnos a nosotros?</h1>
+                    <h2>¿Por qué debería elegirnos a nosotros?</h2>
+                    <h4>¡Descubre el Poder de Nuestras Locuciones!</h4>
                     <div className="vantagens">
                         <div className="item">
                             <div className="icon"><FaMicrophone color="white" size={"120"}/></div>

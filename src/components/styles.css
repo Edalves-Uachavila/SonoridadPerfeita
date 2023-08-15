@@ -38,10 +38,7 @@ a{text-decoration: none;}
     margin: 20px;
 }
 .iten-servicos> p{
-    text-align: justify;
-    word-spacing: -0.08em;
-    hyphens: auto;
-    -webkit-hyphens: auto;
+    text-align: center;
 }
 
 .iten-servicos> .icon{

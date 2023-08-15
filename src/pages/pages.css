@@ -42,10 +42,7 @@ main> .headline{
 }
 
 .porque> .vantagens> .item> .text> p{
-    text-align: justify;
-    word-spacing: -0.08em;
-    hyphens: auto;
-    -webkit-hyphens: auto;
+    text-align: center;
 }
 
 
@@ -193,10 +190,7 @@ main> .headline{
 }
 
 .final-cta> p{
-    text-align: justify;
-    word-spacing: -0.08em;
-    hyphens: auto;
-    -webkit-hyphens: auto;
+    text-align: center;
 }
 
 
