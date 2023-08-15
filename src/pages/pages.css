@@ -189,6 +189,10 @@ main> .headline{
     margin-bottom: 90px;
 }
 
+.final-cta> .btn-box{
+    margin: 0px auto;
+}
+
 .final-cta> p{
     text-align: center;
 }
