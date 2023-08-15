@@ -9,7 +9,6 @@ export const customStyle = {
     color:"white",
     minWidth:"290px",
     padding:"10px",
-    marginRight:"5px",
     border:"none",
     borderRadius:"5px"
     
