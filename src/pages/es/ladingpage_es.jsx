@@ -70,10 +70,10 @@ export const Ladingpage_es = ()=>{
                             <h2>Hombres</h2>
                             <div className="lista-de-vozes">
                                 <hr/>
-                                <Voz nome = "Emilio Cordero"   audio = {Locutores.emilio}/><hr/>
-                                <Voz nome = "Daniel Rodríguez" audio = {Locutores.daniel}/><hr/>
-                                <Voz nome = "Carlos Martínez"  audio = {Locutores.carlos}/><hr/>
-                                <Voz nome = "Manuel Vargas"    audio = {Locutores.manuel}/><hr/>
+                                <Voz nome = "Emilio Cordero"    audio = {Locutores.emilio}/><hr/>
+                                <Voz nome = "Daniel Rodríguez"  audio = {Locutores.daniel}/><hr/>
+                                <Voz nome = "Carlos Martínez"   audio = {Locutores.carlos}/><hr/>
+                                <Voz nome = "Manuel Vargas"     audio = {Locutores.manuel}/><hr/>
                                 <Voz nome = "Guillermo Pacheco" audio = {Locutores.guillerm}/><hr/>
                                 <Voz nome = "Francisco Ruiz"    audio = {Locutores.francisco}/><hr/>
                                 <Voz nome = "Hugo Castro"       audio = {Locutores.hugo}/><hr/>
@@ -90,16 +90,16 @@ export const Ladingpage_es = ()=>{
                             <div className="lista-de-vozes">
                                 <hr/>
                                 <Voz nome = "Camila Fernández"  audio = {Locutores.camila}/><hr/>
-                                <Voz nome = "Daniela Fuentes" audio = {Locutores.daniela}/><hr/>
+                                <Voz nome = "Daniela Fuentes"   audio = {Locutores.daniela}/><hr/>
                                 <Voz nome = "Isabella Martínez" audio = {Locutores.isabella}/><hr/>
                                 <Voz nome = "Adriana Silva"     audio = {Locutores.adriana}/><hr/>
-                                <Voz nome = "Teresa Navarro"  audio = {Locutores.teresa}/><hr/>
+                                <Voz nome = "Teresa Navarro"    audio = {Locutores.teresa}/><hr/>
                                 <Voz nome = "Elena González"    audio = {Locutores.elena}/><hr/>
                                 <Voz nome = "Natalia Castro"    audio = {Locutores.natalia}/><hr/>
                                 <Voz nome = "Martina Rodríguez" audio = {Locutores.martina}/><hr/>
                                 <Voz nome = "Alba Vargas"       audio = {Locutores.alba}/><hr/>
                                 <Voz nome = "María Delgado"     audio = {Locutores.maria}/><hr/>
-                                <Voz nome = "Ana Rivera"     audio = {Locutores.ana}/><hr/>
+                                <Voz nome = "Ana Rivera"        udio = {Locutores.ana}/><hr/>
                             </div>    
                         </div>
                     </div>
