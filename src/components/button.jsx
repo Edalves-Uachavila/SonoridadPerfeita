@@ -7,7 +7,7 @@ export const customStyle = {
     fontSize:"20px",
     backgroundColor:"#00d084",
     color:"white",
-    minWidth:"290px",
+    minWidth:"270px",
     padding:"10px",
     border:"none",
     borderRadius:"5px"
